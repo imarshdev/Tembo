@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsDownloadToken": "sk.ey.."
+        }
+      ]
+    ],
     "name": "walamin",
     "slug": "walamin",
     "version": "1.0.0",
@@ -18,10 +26,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.marshmansur.walamin"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7a839b1a-0321-442e-a5d5-5a82738af585"
+      }
     }
   }
 }
